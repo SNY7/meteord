@@ -6,7 +6,7 @@ There are two main ways you can use Docker with Meteor apps. They are:
 1. Build a Docker image for your app
 2. Running a Meteor bundle with Docker
 
-**MeteorD for China users
+**MeteorD for China users**
 
 1. Add Ali Debian mirror to sources.list
 2. Install node from Taobao mirror
