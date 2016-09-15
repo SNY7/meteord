@@ -11,7 +11,7 @@ cd $COPIED_APP_PATH
 meteor build --directory $BUNDLE_DIR --server=http://localhost:3000
 
 cd $BUNDLE_DIR/bundle/programs/server/
-npm i
+cnpm i
 
 mv $BUNDLE_DIR/bundle /built_app
 
