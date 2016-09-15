@@ -1,4 +1,4 @@
-FROM meteorhacks/meteord:base
+FROM sny7/meteord:base
 MAINTAINER MeteorHacks Pvt Ltd.
 
 ONBUILD RUN bash $METEORD_DIR/lib/install_meteor.sh

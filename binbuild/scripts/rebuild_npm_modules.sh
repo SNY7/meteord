@@ -29,10 +29,10 @@ gyp_rebuild_inside_node_modules () {
       echo " > $npmModule: npm install due to binary npm modules"
       rm -rf node_modules
       if [ -f binding.gyp ]; then
-        cnpm install
+        npm install
         node-gyp rebuild || :
       else
-        cnpm install
+        npm install
       fi
     fi
 

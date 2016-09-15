@@ -8,8 +8,9 @@ There are two main ways you can use Docker with Meteor apps. They are:
 
 **MeteorD for China users
 
-1. Install node from Taobao mirror
-2. Change npm to cnpm
+1. Add Ali Debian mirror to sources.list
+2. Install node from Taobao mirror
+3. Add Taobao npm registry
 
 **MeteorD supports these two ways. Let's see how to use MeteorD**
 
